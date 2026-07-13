@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-title-ru="Контакты | Написать в Telegram" data-title-en="Contacts | Message on Telegram">Контакты | Написать в Telegram</title>
+<meta name="description" content="Единственный канал связи — Telegram. Пишите с описанием задачи, отвечаю обычно в течение часа." data-desc-ru="Единственный канал связи — Telegram. Пишите с описанием задачи, отвечаю обычно в течение часа." data-desc-en="The only contact channel is Telegram. Message with a short description of your task — I usually reply within an hour.">
+<meta property="og:title" content="Контакты">
+<meta property="og:description" content="Пишите в Telegram — отвечаю в течение часа.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="favicon.svg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="lang-ru">
+
+<!-- ================= NAV ================= -->
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo"><span class="logo-mark">&lt;/&gt;</span>DEV<span class="text-gradient">/AI</span></a>
+    <nav class="nav-links">
+      <a href="index.html"><span data-lang-block class="lang-ru">Главная</span><span data-lang-block class="lang-en">Home</span></a>
+      <a href="services.html"><span data-lang-block class="lang-ru">Услуги</span><span data-lang-block class="lang-en">Services</span></a>
+      <a href="portfolio.html"><span data-lang-block class="lang-ru">Портфолио</span><span data-lang-block class="lang-en">Portfolio</span></a>
+      <a href="about.html"><span data-lang-block class="lang-ru">Обо мне</span><span data-lang-block class="lang-en">About</span></a>
+      <a href="contacts.html" class="active"><span data-lang-block class="lang-ru">Контакты</span><span data-lang-block class="lang-en">Contacts</span></a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" data-lang-toggle data-lang-btn aria-label="Switch language">EN</button>
+      <button class="icon-btn" data-theme-toggle aria-label="Switch theme">
+        <svg class="theme-icon-dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="theme-icon-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z"/></svg>
+      </button>
+      <button class="icon-btn burger" aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu">
+  <a href="index.html"><span data-lang-block class="lang-ru">Главная</span><span data-lang-block class="lang-en">Home</span></a>
+  <a href="services.html"><span data-lang-block class="lang-ru">Услуги</span><span data-lang-block class="lang-en">Services</span></a>
+  <a href="portfolio.html"><span data-lang-block class="lang-ru">Портфолио</span><span data-lang-block class="lang-en">Portfolio</span></a>
+  <a href="about.html"><span data-lang-block class="lang-ru">Обо мне</span><span data-lang-block class="lang-en">About</span></a>
+  <a href="contacts.html"><span data-lang-block class="lang-ru">Контакты</span><span data-lang-block class="lang-en">Contacts</span></a>
+  <a href="#" class="btn btn-primary btn-block" data-telegram-link>
+    <span data-lang-block class="lang-ru">Написать в Telegram</span><span data-lang-block class="lang-en">Message on Telegram</span>
+  </a>
+</div>
+
+<!-- ================= PAGE HERO ================= -->
+<section class="page-hero" style="padding-bottom:20px">
+  <div class="container">
+    <div class="breadcrumb"><span data-lang-block class="lang-ru">Главная</span><span data-lang-block class="lang-en">Home</span> / <span class="accent"><span data-lang-block class="lang-ru">Контакты</span><span data-lang-block class="lang-en">Contacts</span></span></div>
+    <h1><span data-lang-block class="lang-ru">Один канал <span class="text-gradient">связи</span></span><span data-lang-block class="lang-en">One <span class="text-gradient">contact channel</span></span></h1>
+    <p><span data-lang-block class="lang-ru">Без форм, тикетов и почты в спам — всё общение проходит в Telegram.</span><span data-lang-block class="lang-en">No forms, tickets or email lost in spam — all communication happens on Telegram.</span></p>
+  </div>
+</section>
+
+<!-- ================= CONTACT CARD ================= -->
+<section class="section section-tight">
+  <div class="container">
+    <div class="contact-card" data-reveal>
+      <div class="card-icon">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.6c.3-1-.7-1.9-1.7-1.5L2.6 10.3c-1 .4-1 1.8 0 2.2l4.5 1.5 1.7 5.6c.3.9 1.4 1.1 2 .4l2.5-2.6 4.6 3.4c.8.6 2 .2 2.2-.8l3.8-15.4Zm-4 3-8.4 7.6-.4 3.6-1.6-5.3 9.6-6.8c.3-.2.6.2.3.5Z"/></svg>
+      </div>
+      <h2><span data-lang-block class="lang-ru">Напишите в Telegram</span><span data-lang-block class="lang-en">Message on Telegram</span></h2>
+      <p><span data-lang-block class="lang-ru">Опишите в двух словах задачу — предложу формат работы и посчитаю цену.</span><span data-lang-block class="lang-en">Briefly describe your task — I'll suggest a format and quote a price.</span></p>
+      <a href="#" class="btn btn-primary" data-telegram-link style="padding:16px 36px;font-size:1.05rem">
+        <span data-telegram-user>@yourusername</span>
+      </a>
+    </div>
+
+    <div class="contact-info">
+      <div class="card" data-reveal>
+        <h4><span data-lang-block class="lang-ru">Время ответа</span><span data-lang-block class="lang-en">Response time</span></h4>
+        <p><span data-lang-block class="lang-ru">Обычно в течение часа, в рабочее время — почти сразу</span><span data-lang-block class="lang-en">Usually within an hour, near-instant during working hours</span></p>
+      </div>
+      <div class="card" data-reveal>
+        <h4><span data-lang-block class="lang-ru">Часовой пояс</span><span data-lang-block class="lang-en">Timezone</span></h4>
+        <p><span data-lang-block class="lang-ru">Работаю в будни, доступен по договорённости и в выходные</span><span data-lang-block class="lang-en">Working on weekdays, available on weekends by arrangement</span></p>
+      </div>
+      <div class="card" data-reveal>
+        <h4><span data-lang-block class="lang-ru">Формат</span><span data-lang-block class="lang-en">Format</span></h4>
+        <p><span data-lang-block class="lang-ru">Удалённо, полностью на связи от старта до сдачи проекта</span><span data-lang-block class="lang-en">Fully remote, in touch from kickoff to delivery</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><span class="logo-mark">&lt;/&gt;</span>DEV<span class="text-gradient">/AI</span></a>
+        <p><span data-lang-block class="lang-ru">Сайты, AI-агенты и автоматизация под ключ. Фиксированная цена, срок 2-3 дня.</span><span data-lang-block class="lang-en">End-to-end websites, AI agents and automation. Fixed price, 2-3 day delivery.</span></p>
+        <span class="badge-live"><span data-lang-block class="lang-ru">Свободен для новых проектов</span><span data-lang-block class="lang-en">Available for new projects</span></span>
+      </div>
+      <div>
+        <h4><span data-lang-block class="lang-ru">Навигация</span><span data-lang-block class="lang-en">Navigation</span></h4>
+        <ul>
+          <li><a href="services.html"><span data-lang-block class="lang-ru">Услуги</span><span data-lang-block class="lang-en">Services</span></a></li>
+          <li><a href="portfolio.html"><span data-lang-block class="lang-ru">Портфолио</span><span data-lang-block class="lang-en">Portfolio</span></a></li>
+          <li><a href="about.html"><span data-lang-block class="lang-ru">Обо мне</span><span data-lang-block class="lang-en">About</span></a></li>
+        </ul>
+      </div>
+      <div>
+        <h4><span data-lang-block class="lang-ru">Связь</span><span data-lang-block class="lang-en">Contact</span></h4>
+        <ul>
+          <li><a href="#" data-telegram-link>Telegram</a></li>
+          <li><a href="contacts.html"><span data-lang-block class="lang-ru">Все контакты</span><span data-lang-block class="lang-en">All contacts</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> DEV/AI. <span data-lang-block class="lang-ru">Все права защищены</span><span data-lang-block class="lang-en">All rights reserved</span></span>
+      <span class="mono"><span data-lang-block class="lang-ru">Сделано вручную, без шаблонов</span><span data-lang-block class="lang-en">Handcrafted, no templates</span></span>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= TELEGRAM FAB + CHAT ================= -->
+<a href="#" class="fab-telegram" data-chat-toggle aria-label="Chat">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.6c.3-1-.7-1.9-1.7-1.5L2.6 10.3c-1 .4-1 1.8 0 2.2l4.5 1.5 1.7 5.6c.3.9 1.4 1.1 2 .4l2.5-2.6 4.6 3.4c.8.6 2 .2 2.2-.8l3.8-15.4Zm-4 3-8.4 7.6-.4 3.6-1.6-5.3 9.6-6.8c.3-.2.6.2.3.5Z"/></svg>
+</a>
+<div class="chat-panel" data-chat-panel>
+  <div class="chat-head">
+    <div class="chat-avatar">AI</div>
+    <div>
+      <strong><span data-lang-block class="lang-ru">Быстрый вопрос?</span><span data-lang-block class="lang-en">Quick question?</span></strong>
+      <small><span data-lang-block class="lang-ru">Обычно отвечаю в течение часа</span><span data-lang-block class="lang-en">Usually reply within an hour</span></small>
+    </div>
+    <button data-chat-close style="margin-left:auto;font-size:20px;line-height:1">×</button>
+  </div>
+  <div class="chat-body">
+    <div class="chat-msg"><span data-lang-block class="lang-ru">Привет! Расскажите пару слов о задаче — и я отвечу в Telegram.</span><span data-lang-block class="lang-en">Hi! Tell me a bit about your task and I'll reply on Telegram.</span></div>
+  </div>
+  <form class="chat-form" data-chat-form>
+    <textarea data-chat-input placeholder="..." required></textarea>
+    <button type="submit" aria-label="Send">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7Z"/></svg>
+    </button>
+  </form>
+</div>
+
+<script src="app.js" defer></script>
+</body>
+</html>
