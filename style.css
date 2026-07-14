@@ -547,6 +547,22 @@ h3 { font-size: 1.3rem; }
 .contact-info .card p { font-size: 0.86rem; margin: 0; }
 @media (max-width: 700px) { .contact-info { grid-template-columns: 1fr; } .contact-card { padding: 32px 24px; } }
 
+/* ---------- Reviews & guarantees ---------- */
+.stars { color: var(--accent); letter-spacing: 3px; font-size: 1.05rem; }
+.rev-who { display: flex; flex-direction: column; gap: 2px; border-top: 1px dashed var(--border); padding-top: 14px; }
+.rev-who strong { font-size: 0.94rem; }
+.rev-who .mono { font-size: 0.75rem; color: var(--text-faint); }
+.guarantee {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+  border: 1px solid var(--border); border-radius: var(--radius);
+  background: var(--surface); padding: 28px 32px;
+}
+.g-item { display: flex; align-items: flex-start; gap: 14px; }
+.g-ic { font-size: 1.5rem; line-height: 1.2; }
+.g-item strong { font-family: var(--ff-head); font-size: 0.98rem; display: block; }
+.g-item p { color: var(--text-dim); font-size: 0.86rem; margin: 0; }
+@media (max-width: 820px) { .guarantee { grid-template-columns: 1fr; } }
+
 /* ---------- misc ---------- */
 .divider { height: 1px; background: var(--border); margin: 0; }
 .badge-live { display:inline-flex; align-items:center; gap:6px; font-family: var(--ff-mono); font-size:0.78rem; color: var(--success); }
